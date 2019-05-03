@@ -1,0 +1,73 @@
+{
+    "benchmark_version": {
+        "time_partialize.time_default": "633f566fdc89121960e23c0ad902d260c4a7b612088f470bceda2ae7eede3b3f",
+        "time_partialize.time_partialize": "b24432cd1b1276b4b9434bfb17e5ba9439a5d20db4e52d9da68e6c65b7d80cc6"
+    },
+    "commit_hash": "94065d798bbb1dd99340c1cacd2e8f3d02b5a92f",
+    "date": 1556672078000,
+    "ended_at": {
+        "time_partialize.time_default": 1556862191505,
+        "time_partialize.time_partialize": 1556862191709
+    },
+    "env_name": "virtualenv-py3.6",
+    "params": {
+        "arch": "x86_64",
+        "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "machine": "haw10009593",
+        "os": "Linux 3.10.0-862.el7.x86_64",
+        "python": "3.6",
+        "ram": "15891652"
+    },
+    "profiles": {},
+    "python": "3.6",
+    "requirements": {},
+    "results": {
+        "time_partialize.time_default": {
+            "result": [
+                2.1970019571599458e-07
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        2.1708604979884737e-07,
+                        2.2814089376970714e-07
+                    ],
+                    "max": 2.2814089376970714e-07,
+                    "mean": 2.207237533978472e-07,
+                    "min": 2.1708604979884737e-07,
+                    "number": 45985,
+                    "q_25": 2.1722631292812906e-07,
+                    "q_75": 2.2203462542133315e-07,
+                    "repeat": 10,
+                    "std": 3.973872636055172e-09
+                }
+            ]
+        },
+        "time_partialize.time_partialize": {
+            "result": [
+                0.001523434142857142
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.0015048147142857151,
+                        0.0015801624285714283
+                    ],
+                    "max": 0.0015801624285714283,
+                    "mean": 0.0015268886714285713,
+                    "min": 0.0015048147142857151,
+                    "number": 7,
+                    "q_25": 0.0015156511785714283,
+                    "q_75": 0.0015314607142857134,
+                    "repeat": 10,
+                    "std": 2.012135707650447e-05
+                }
+            ]
+        }
+    },
+    "started_at": {
+        "time_partialize.time_default": 1556862191302,
+        "time_partialize.time_partialize": 1556862191506
+    },
+    "version": 1
+}

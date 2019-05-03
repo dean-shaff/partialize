@@ -1,0 +1,35 @@
+{
+    "time_partialize.time_default": {
+        "code": "def time_default():\n    test_func(\"one\", \"two\", \"three\", d=\"foo\", e=\"bar\")",
+        "min_run_count": 2,
+        "name": "time_partialize.time_default",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "633f566fdc89121960e23c0ad902d260c4a7b612088f470bceda2ae7eede3b3f",
+        "warmup_time": -1
+    },
+    "time_partialize.time_partialize": {
+        "code": "def time_partialize():\n    f = test_func_partialize()\n    f(d=\"foo\")(e=\"bar\")(\"one\")(\"two\")(\"three\")",
+        "min_run_count": 2,
+        "name": "time_partialize.time_partialize",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "b24432cd1b1276b4b9434bfb17e5ba9439a5d20db4e52d9da68e6c65b7d80cc6",
+        "warmup_time": -1
+    },
+    "version": 2
+}

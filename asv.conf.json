@@ -1,3 +1,9 @@
 {
-  "project": "partialize"
+  "version": 1,
+  "benchmark_dir": "benchmarks",
+  "project": "partialize",
+  "repo": ".",
+  "environment_type": "virtualenv",
+  "install_command": ["python -m pip install dist/partialize-0.1.0-py3-none-any.whl"],
+  "build_command": ["python -m pip install poetry", "poetry build"]
 }
